@@ -50,5 +50,11 @@ public  static  void main(String[] args){
     double dd = Double.parseDouble(ss);
     //取第一个字符
     System.out.println(ss.charAt(0));
+    String ee = "hee";
+    System.out.println(ee=="hee");
+    StringBuilder str = new StringBuilder();
+    str.append("haha");
+    str.append("hehe");
+    str.toString();
 }
 }

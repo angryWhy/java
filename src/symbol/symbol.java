@@ -1,0 +1,27 @@
+package symbol;
+
+public class symbol {
+    public static void main(String[] args){
+        //除，int运算，输出：2
+        System.out.println(10/4);
+        //除，double，运算：输出2.5
+        System.out.println(10.0/4);
+
+
+        //%取模运算
+        //%本质，是一个公式，a%b = a - a / b * b
+        System.out.println(10%3);
+        System.out.println(-10%3);
+        System.out.println(10%-3);
+
+        //自加，自减
+        int i = 1;
+        i = i++;//temp = i; i = i + 1  ; i = temp
+        int a = 2;
+        a = ++a;//i = i + 1  ; temp = i;  i = temp
+
+        //逻辑运算符
+        //短路与&&，短路或||，取反！
+        //逻辑与&,逻辑或|，^逻辑异或，a^b不同的时候为真，一个真一个假
+    }
+}

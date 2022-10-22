@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/symbol/symbol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/variable/transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variable/transform.java" afterDir="false" />
     </list>
@@ -41,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.transform">
     <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic.basic" />
       <module name="java" />
@@ -55,8 +56,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="transform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variable.transform" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="variable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.transform" />
         <item itemvalue="Application.basic" />
       </list>
     </recent_temporary>
@@ -73,7 +88,8 @@
       <workItem from="1666398075016" duration="845000" />
       <workItem from="1666406083340" duration="4639000" />
       <workItem from="1666414088217" duration="5385000" />
-      <workItem from="1666425842775" duration="2146000" />
+      <workItem from="1666425842775" duration="4235000" />
+      <workItem from="1666439019269" duration="2773000" />
     </task>
     <servers />
   </component>
