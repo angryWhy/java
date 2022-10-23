@@ -1,4 +1,4 @@
-package variable;
+package basic.variable;
 
 public class vartype {
     public static void main(String[] args){

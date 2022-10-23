@@ -1,4 +1,4 @@
-package symbol;
+package basic.symbol;
 
 public class symbol {
     public static void main(String[] args){
@@ -23,5 +23,13 @@ public class symbol {
         //逻辑运算符
         //短路与&&，短路或||，取反！
         //逻辑与&,逻辑或|，^逻辑异或，a^b不同的时候为真，一个真一个假
+
+
+        //三元运算符
+        int s1,s2;
+        s1 = 1;
+        s2 = 2;
+        int res = s1>s2? (int)1.1 : (int)2.2;
+        double res2 = s1>s2?1.1:2.2;
     }
 }

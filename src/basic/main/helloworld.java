@@ -1,4 +1,4 @@
-package main;
+package basic.main;
 
 //1.hello是一个类，用public代表共有，公开的类
 //2.{}代表类的开始和结束

@@ -1,4 +1,6 @@
-package variable;
+package basic.variable;
+
+import java.util.Scanner;
 
 public class transform {
 public  static  void main(String[] args){
@@ -56,5 +58,9 @@ public  static  void main(String[] args){
     str.append("haha");
     str.append("hehe");
     str.toString();
+    Scanner sc = new Scanner(System.in);
+    System.out.println("你的名字");
+    String name = sc.next();
+
 }
 }
