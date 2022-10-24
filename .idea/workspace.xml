@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Array/basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/control/basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/control/breaka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/control/doublefor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/control/fora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/control/whilea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/basic/scanner/basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/helloworld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/main/helloworld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/symbol/symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/symbol/symbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/variable/basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/variable/transform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variable/vartype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/basic/variable/vartype.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +41,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.basic">
+  <component name="RunManager" selected="Application.Object.basic">
+    <configuration name="Object.basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Object.basic" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array.basic" />
       <module name="java" />
@@ -92,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.control.fora" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basic.control.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="whilea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="basic.control.whilea" />
       <module name="java" />
@@ -120,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Object.basic" />
         <item itemvalue="Application.basic" />
         <item itemvalue="Application.breaka" />
         <item itemvalue="Application.doublefor" />
         <item itemvalue="Application.whilea" />
-        <item itemvalue="Application.fora" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +134,8 @@
       <workItem from="1666497355813" duration="4923000" />
       <workItem from="1666514502797" duration="5600000" />
       <workItem from="1666529817549" duration="386000" />
+      <workItem from="1666530253602" duration="34000" />
+      <workItem from="1666612988045" duration="4324000" />
     </task>
     <servers />
   </component>
