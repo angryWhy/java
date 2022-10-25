@@ -63,7 +63,7 @@ class Cat {
     }
 }
 class He{
-    public void haha{
+    public void haha(){
         //跨类调用
         Cat c = new Cat();
         c.speak();
