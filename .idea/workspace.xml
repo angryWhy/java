@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Object/migong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Object/ovaerload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Object/varScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/constructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/thisa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Object/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Object/basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Object.basic">
+  <component name="RunManager" selected="Application.thisa">
     <configuration name="Object.basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Object.basic" />
       <module name="java" />
@@ -97,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="whilea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.control.whilea" />
+    <configuration name="thisa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Object.thisa" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.control.*" />
+          <option name="PATTERN" value="Object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.thisa" />
         <item itemvalue="Application.Object.basic" />
         <item itemvalue="Application.basic" />
         <item itemvalue="Application.breaka" />
         <item itemvalue="Application.doublefor" />
-        <item itemvalue="Application.whilea" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +137,8 @@
       <workItem from="1666529817549" duration="386000" />
       <workItem from="1666530253602" duration="34000" />
       <workItem from="1666612988045" duration="5168000" />
-      <workItem from="1666698739770" duration="5037000" />
+      <workItem from="1666698739770" duration="5091000" />
+      <workItem from="1666786378817" duration="3569000" />
     </task>
     <servers />
   </component>
