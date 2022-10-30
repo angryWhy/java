@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Object/super1/father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Object/super1/son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/debug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Object/equals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wallet/SmallChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Object.feature.basic">
+  <component name="RunManager" selected="Application.SmallChange">
     <configuration name="Object.basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Object.basic" />
       <module name="java" />
@@ -69,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.basic" />
+    <configuration name="SmallChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wallet.SmallChange" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="wallet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="breaka" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.control.breaka" />
+    <configuration name="debug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Object.debug" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.control.*" />
+          <option name="PATTERN" value="Object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SmallChange" />
+        <item itemvalue="Application.debug" />
         <item itemvalue="Application.Object.feature.basic" />
         <item itemvalue="Application.thisa" />
         <item itemvalue="Application.Object.basic" />
-        <item itemvalue="Application.basic" />
-        <item itemvalue="Application.breaka" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +142,10 @@
       <workItem from="1666786378817" duration="6106000" />
       <workItem from="1666874716955" duration="4514000" />
       <workItem from="1667010357662" duration="1728000" />
+      <workItem from="1667035797403" duration="618000" />
+      <workItem from="1667044853142" duration="591000" />
+      <workItem from="1667102855902" duration="2727000" />
+      <workItem from="1667114499016" duration="3870000" />
     </task>
     <servers />
   </component>
