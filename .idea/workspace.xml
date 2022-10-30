@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/wallet/OOP/Wallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wallet/OOP/WalletApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/house/HouseApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/house/domain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/house/service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/house/util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/house/view.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WalletApp">
+  <component name="RunManager" selected="Application.HouseApp">
+    <configuration name="HouseApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="house.HouseApp" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="house.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Object.feature.basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Object.feature.basic" />
       <module name="java" />
@@ -94,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thisa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Object.thisa" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Object.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HouseApp" />
         <item itemvalue="Application.WalletApp" />
         <item itemvalue="Application.SmallChange" />
         <item itemvalue="Application.debug" />
         <item itemvalue="Application.Object.feature.basic" />
-        <item itemvalue="Application.thisa" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +147,8 @@
       <workItem from="1667035797403" duration="618000" />
       <workItem from="1667044853142" duration="591000" />
       <workItem from="1667102855902" duration="2727000" />
-      <workItem from="1667114499016" duration="4629000" />
+      <workItem from="1667114499016" duration="5454000" />
+      <workItem from="1667125894739" duration="6612000" />
     </task>
     <servers />
   </component>
