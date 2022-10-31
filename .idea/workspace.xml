@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/calss/staticVar/basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/house/service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/house/service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/house/view.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/house/view.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,7 @@
       <workItem from="1667102855902" duration="2727000" />
       <workItem from="1667114499016" duration="5454000" />
       <workItem from="1667125894739" duration="6714000" />
-      <workItem from="1667218287459" duration="1318000" />
+      <workItem from="1667218287459" duration="3824000" />
     </task>
     <servers />
   </component>
