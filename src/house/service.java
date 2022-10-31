@@ -36,4 +36,15 @@ public class service {
         houses[--nums] = null;
         return true;
     }
+    public domain searchHouse(int id){
+        if(houses[id]!=null){
+            return houses[id];
+        }else {
+            return null;
+        }
+    }
+    public boolean updateHouse(domain house,int id){
+        houses[id] = house;
+        return true;
+    }
 }

@@ -23,20 +23,19 @@ public class view {
                     addHouse();
                     break;
                 case "2":
-                    System.out.println("查找");
+                    search();
                     break;
                 case "3":
                     delHouse();
                     break;
                 case "4":
-                    System.out.println("修改");
+                    update();
                     break;
                 case "5":
                     listHouses();
                     break;
                 case "6":
-                    System.out.println("退出");
-                    loop = false;
+                    exit();
                     break;
             }
         }while(loop);
@@ -63,7 +62,7 @@ public class view {
         int rent = in.nextInt();
         System.out.println("状态：");
         String state = in.next();
-        domain house = new domain(0,name,phone,address,rent,state);
+        domain house = new domain(1,name,phone,address,rent,state);
         if(houseService.addHouse(house)){
             System.out.println("=========添加成功========");
         }else {
@@ -81,6 +80,45 @@ public class view {
             houseService.delHouse(id);
             System.out.println("删除房屋信息成功！");
         }
-
+    }
+    public void exit(){
+        Scanner in = new Scanner(System.in);
+        String c = in.next();
+        if("y".equals(c)){
+            loop = false;
+        }
+    }
+    public void search(){
+        Scanner in = new Scanner(System.in);
+        int id = in.nextInt();
+        domain res = houseService.searchHouse(id-1);
+        if(res!=null){
+            System.out.println(res.toString());
+        }else {
+            System.out.println("");
+        }
+    }
+    public void update(){
+        System.out.println("输入要修改的id");
+        Scanner in = new Scanner(System.in);
+        int id = in.nextInt();
+        domain res = houseService.searchHouse(id-1);
+        if(res!=null){
+            System.out.println("=========修改房屋========");
+            System.out.println("姓名：");
+            String name = in.next();
+            System.out.println("电话：");
+            String phone = in.next();
+            System.out.println("地址：");
+            String address = in.next();
+            System.out.println("月租：");
+            int rent = in.nextInt();
+            System.out.println("状态：");
+            String state = in.next();
+            domain house = new domain(0,name,phone,address,rent,state);
+            houseService.updateHouse(house,id-1);
+        }else {
+            System.out.println("房屋不存在");
+        }
     }
 }
