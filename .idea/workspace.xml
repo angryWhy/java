@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/annotation/basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Err/basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Err/throwsa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,13 +42,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.enmua.exercise">
-    <configuration name="enmua.exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enmua.exercise" />
+  <component name="RunManager" selected="Application.basic">
+    <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Err.basic" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enmua.*" />
+          <option name="PATTERN" value="Err.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercise (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="innerClass.exercise" />
+    <configuration name="enmua.exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enmua.exercise" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="innerClass.*" />
+          <option name="PATTERN" value="enmua.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.basic" />
         <item itemvalue="Application.enmua.exercise" />
         <item itemvalue="Application.func (1)" />
         <item itemvalue="Application.func" />
         <item itemvalue="Application.memberClass" />
-        <item itemvalue="Application.exercise (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +150,9 @@
       <workItem from="1667302141163" duration="6713000" />
       <workItem from="1667479636832" duration="3499000" />
       <workItem from="1667567142722" duration="4929000" />
-      <workItem from="1667621149202" duration="4547000" />
+      <workItem from="1667621149202" duration="4822000" />
+      <workItem from="1667634445681" duration="591000" />
+      <workItem from="1667642491242" duration="3074000" />
     </task>
     <servers />
   </component>
