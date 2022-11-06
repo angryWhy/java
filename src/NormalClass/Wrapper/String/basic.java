@@ -34,5 +34,12 @@ public class basic {
         //2.sb.append("")
         //3.toString
         String a2 = a +b;
+
+
+
+
+
+
+
     }
 }
