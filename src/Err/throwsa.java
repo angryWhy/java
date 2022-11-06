@@ -41,3 +41,8 @@ class son extends Father{
 
     }
 }
+class AgeErr extends RuntimeException{
+    public AgeErr(String message){
+        super(message);
+    }
+}
