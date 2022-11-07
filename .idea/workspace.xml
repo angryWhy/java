@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NormalClass/Wrapper/String/bufferMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NormalClass/Wrapper/String/stringbuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalClass/Wrapper/arr/basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalClass/Wrapper/arr/exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalClass/Wrapper/math/basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NormalClass/Wrapper/String/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NormalClass/Wrapper/String/basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,8 @@
       <workItem from="1667721329069" duration="4010000" />
       <workItem from="1667726258792" duration="1683000" />
       <workItem from="1667733337386" duration="1764000" />
-      <workItem from="1667739512045" duration="1040000" />
+      <workItem from="1667739512045" duration="1349000" />
+      <workItem from="1667823173510" duration="3963000" />
     </task>
     <servers />
   </component>
