@@ -4,9 +4,9 @@ package Collectionsa.list;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Arraylist {
+public class Arraylist2 {
     public static void main(String[] args) {
-       List a = (List) new Arraylist();
+       List a = (List) new Arraylist2();
        a.add("111");
        //自动装箱
        a.add(123);

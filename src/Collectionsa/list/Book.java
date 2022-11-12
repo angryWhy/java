@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Book {
     public static void main(String[] args) {
-        List arr =(List) new Arraylist();
+        List arr =(List) new Arraylist2();
         arr.add(new Book("1",1,"haha"));
         arr.add(new Book("2",2,"hehe"));
         arr.add(new Book("3",3,"gaga"));
