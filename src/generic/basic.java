@@ -22,6 +22,12 @@ public class basic {
         ArrayList<Object> a = new ArrayList<Object>();
         a.add(new Dog("1",2));
         ArrayList<Integer> a2 = new ArrayList<>();
+
+
+        //泛型标识符可以有多个
+        //普通成员可以有泛型（属性和方法）
+        //使用泛型数组，不能初始化
+        //
     }
 }
 class Dog{
@@ -62,5 +68,13 @@ class Cat<T>{
 class Student{
     private String name;
     private int age;
+    public void run(){
 
+    }
+    //泛型方法
+    //<T,R>就是泛型
+    //调用时候确定类型
+    public <T,R> void fly(T A,R B){
+
+    }
 }
