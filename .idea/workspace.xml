@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/genexercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/interGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/exerciseGemeric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generic/genericExtends.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generic/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,8 @@
       <workItem from="1668319444710" duration="4915000" />
       <workItem from="1668338428105" duration="2647000" />
       <workItem from="1668430594679" duration="4040000" />
-      <workItem from="1668513487866" duration="3500000" />
+      <workItem from="1668513487866" duration="3956000" />
+      <workItem from="1668600953192" duration="2856000" />
     </task>
     <servers />
   </component>
