@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/exerciseGemeric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/genericExtends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/paint/basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generic/exerciseGemeric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/exerciseGemeric.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Local">
+  <component name="RunManager" selected="Application.paint.basic">
     <configuration name="DateClass.basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DateClass.basic" />
       <module name="java" />
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="enmua.exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="enmua.exercise" />
+    <configuration name="paint.basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paint.basic" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="enmua.*" />
+          <option name="PATTERN" value="paint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.paint.basic" />
         <item itemvalue="Application.Local" />
         <item itemvalue="Application.calendar" />
         <item itemvalue="Application.DateClass.basic" />
         <item itemvalue="Application.basic" />
-        <item itemvalue="Application.enmua.exercise" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +171,8 @@
       <workItem from="1668338428105" duration="2647000" />
       <workItem from="1668430594679" duration="4040000" />
       <workItem from="1668513487866" duration="3956000" />
-      <workItem from="1668600953192" duration="2856000" />
+      <workItem from="1668600953192" duration="3465000" />
+      <workItem from="1668687958910" duration="1811000" />
     </task>
     <servers />
   </component>

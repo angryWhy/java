@@ -5,7 +5,7 @@ import java.util.*;
 public class exerciseGemeric {
     public static void main(String[] args) {
         Dao<User> dao = new Dao<>();
-        dao.
+
     }
 }
 class User{
