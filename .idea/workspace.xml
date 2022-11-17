@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/paint/basic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generic/exerciseGemeric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/generic/exerciseGemeric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paint/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paint/basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +171,7 @@
       <workItem from="1668430594679" duration="4040000" />
       <workItem from="1668513487866" duration="3956000" />
       <workItem from="1668600953192" duration="3465000" />
-      <workItem from="1668687958910" duration="1811000" />
+      <workItem from="1668687958910" duration="4225000" />
     </task>
     <servers />
   </component>
