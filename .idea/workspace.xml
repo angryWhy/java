@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tank/EnemyTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BallMove/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BallMove/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tank/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/MyPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tank/TankGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/TankGame.java" afterDir="false" />
-    </list>
+    <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -183,7 +176,7 @@
       <workItem from="1668841293886" duration="2830000" />
       <workItem from="1668848171700" duration="3444000" />
       <workItem from="1668856994537" duration="596000" />
-      <workItem from="1668860862782" duration="1302000" />
+      <workItem from="1668860862782" duration="1612000" />
     </task>
     <servers />
   </component>
