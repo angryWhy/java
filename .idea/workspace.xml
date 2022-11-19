@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Tank/EnemyTank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BallMove/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BallMove/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tank/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/MyPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tank/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tank/TankGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/TankGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ball">
+  <component name="RunManager" selected="Application.TankGame">
     <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BallMove.Ball" />
       <module name="java" />
@@ -109,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ball" />
         <item itemvalue="Application.TankGame" />
+        <item itemvalue="Application.Ball" />
         <item itemvalue="Application.paint.basic" />
         <item itemvalue="Application.Local" />
         <item itemvalue="Application.calendar" />
@@ -176,7 +180,10 @@
       <workItem from="1668829762102" duration="1449000" />
       <workItem from="1668832984423" duration="272000" />
       <workItem from="1668835219531" duration="3605000" />
-      <workItem from="1668841293886" duration="333000" />
+      <workItem from="1668841293886" duration="2830000" />
+      <workItem from="1668848171700" duration="3444000" />
+      <workItem from="1668856994537" duration="596000" />
+      <workItem from="1668860862782" duration="1302000" />
     </task>
     <servers />
   </component>

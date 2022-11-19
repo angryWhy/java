@@ -24,10 +24,12 @@ public class Ball extends JFrame {
 }
 //监听键盘发生的事件
 class MyPanel extends JPanel implements KeyListener {
+    private int x=10;
+    private int y = 10;
     @Override
     public void paint(Graphics g) {
         super.paint(g);
-        g.fillOval(10, 10, 20, 20);
+        g.fillOval(x, y, 20, 20);
     }
 
     //有字符输出，该方法会触发
@@ -40,6 +42,16 @@ class MyPanel extends JPanel implements KeyListener {
     @Override
     public void keyPressed(KeyEvent e) {
         System.out.println((char)e.getKeyCode()+"按下了");
+        if(e.getKeyCode()==KeyEvent.VK_DOWN){
+            y++;
+        } else if (e.getKeyCode()==KeyEvent.VK_UP) {
+            y--;
+        } else if(e.getKeyCode()==KeyEvent.VK_LEFT){
+            x--;
+        } else if (e.getKeyCode()==KeyEvent.VK_RIGHT) {
+            x++;
+        }
+        this.repaint();
     }
     //某个键释放了，触发 
     @Override
