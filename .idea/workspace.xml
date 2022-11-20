@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Thread/Thread02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ProtectThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ticket/sellTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.basic">
+  <component name="RunManager" selected="Application.ThreadInsert">
     <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BallMove.Ball" />
       <module name="java" />
@@ -56,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Local" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DateClass.Local" />
+    <configuration name="TankGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tank.TankGame" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DateClass.*" />
+          <option name="PATTERN" value="Tank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TankGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tank.TankGame" />
+    <configuration name="ThreadInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadInsert" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tank.*" />
+          <option name="PATTERN" value="Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadInsert" />
         <item itemvalue="Application.basic" />
         <item itemvalue="Application.TankGame" />
         <item itemvalue="Application.Ball" />
         <item itemvalue="Application.paint.basic" />
-        <item itemvalue="Application.Local" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +184,9 @@
       <workItem from="1668856994537" duration="596000" />
       <workItem from="1668860862782" duration="3872000" />
       <workItem from="1668914742748" duration="601000" />
-      <workItem from="1668919846039" duration="3982000" />
+      <workItem from="1668919846039" duration="5573000" />
+      <workItem from="1668932793867" duration="3895000" />
+      <workItem from="1668949549973" duration="358000" />
     </task>
     <servers />
   </component>
