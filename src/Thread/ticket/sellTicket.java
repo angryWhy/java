@@ -9,12 +9,11 @@ public class sellTicket {
 }
 class sellTicket01 extends Thread{
     private static int ticketnum = 100;
-    @Override
-    public void run() {
+    public synchronized void sell(){
         while (true){
             if(ticketnum<=0){
                 System.out.println("售票结束");
-                break;
+                return;
             }
             //休眠
             try {
@@ -25,5 +24,10 @@ class sellTicket01 extends Thread{
             System.out.println("窗口"+Thread.currentThread().getName()+"售出1张票");
             ticketnum--;
         }
+    }
+    @Override
+    //最简单，给方法上锁，是个同步方法，同一时刻，只有一个线程来操作和执行
+    public  void run() {
+       sell();
     }
 }

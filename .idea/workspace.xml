@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Thread/ProtectThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadInsert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thread/ticket/sellTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ThreadInsert">
+  <component name="RunManager" selected="Application.ThreadStatus">
     <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BallMove.Ball" />
       <module name="java" />
@@ -84,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadStatus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadStatus" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thread.basic" />
       <module name="java" />
@@ -97,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="paint.basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paint.basic" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="paint.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadStatus" />
         <item itemvalue="Application.ThreadInsert" />
         <item itemvalue="Application.basic" />
         <item itemvalue="Application.TankGame" />
         <item itemvalue="Application.Ball" />
-        <item itemvalue="Application.paint.basic" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +183,8 @@
       <workItem from="1668914742748" duration="601000" />
       <workItem from="1668919846039" duration="5573000" />
       <workItem from="1668932793867" duration="3895000" />
-      <workItem from="1668949549973" duration="358000" />
+      <workItem from="1668949549973" duration="1067000" />
+      <workItem from="1669034302249" duration="1509000" />
     </task>
     <servers />
   </component>
