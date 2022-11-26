@@ -9,6 +9,9 @@ public class sellTicket {
 }
 class sellTicket01 extends Thread{
     private static int ticketnum = 100;
+    //同步方静态的方法，锁为；类本身
+    public synchronized static void say(){}
+    //public synchronized void sell是一个同步方法，锁在对象身上
     public synchronized void sell(){
         while (true){
             if(ticketnum<=0){

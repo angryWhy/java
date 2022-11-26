@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/deadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/exercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/ticket/sellTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/ticket/sellTicket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +186,9 @@
       <workItem from="1668919846039" duration="5573000" />
       <workItem from="1668932793867" duration="3895000" />
       <workItem from="1668949549973" duration="1067000" />
-      <workItem from="1669034302249" duration="1509000" />
+      <workItem from="1669034302249" duration="2343000" />
+      <workItem from="1669440248528" duration="1186000" />
+      <workItem from="1669457591428" duration="3310000" />
     </task>
     <servers />
   </component>
