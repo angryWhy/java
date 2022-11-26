@@ -3,7 +3,10 @@ package Thread;
 import java.util.Scanner;
 
 public class exercise {
-
+    public static void main(String[] args) {
+        A a = new A();
+        B b = new B(a);
+    }
 }
 class A extends Thread{
     private boolean loop = true;
