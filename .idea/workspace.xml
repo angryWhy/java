@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Thread/exercise02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tank/Bomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tank/Shot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thread/exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tank/EnemyTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/EnemyTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tank/MyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/MyPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tank/MyTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/MyTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tank/TankGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tank/TankGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ThreadStatus">
+  <component name="RunManager" selected="Application.TankGame">
     <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BallMove.Ball" />
       <module name="java" />
@@ -110,10 +114,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TankGame" />
         <item itemvalue="Application.ThreadStatus" />
         <item itemvalue="Application.ThreadInsert" />
         <item itemvalue="Application.basic" />
-        <item itemvalue="Application.TankGame" />
         <item itemvalue="Application.Ball" />
       </list>
     </recent_temporary>
@@ -187,7 +191,9 @@
       <workItem from="1668949549973" duration="1067000" />
       <workItem from="1669034302249" duration="2343000" />
       <workItem from="1669440248528" duration="1186000" />
-      <workItem from="1669457591428" duration="4602000" />
+      <workItem from="1669457591428" duration="4687000" />
+      <workItem from="1669525163862" duration="3545000" />
+      <workItem from="1669544907921" duration="3107000" />
     </task>
     <servers />
   </component>

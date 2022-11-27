@@ -6,7 +6,7 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.Vector;
 
-public class MyPanel extends JPanel implements KeyListener {
+public class MyPanel extends JPanel implements KeyListener,Runnable {
     //定义我的坦克
     MyTank hero = null;
     //定义敌人的Tank
@@ -18,6 +18,9 @@ public class MyPanel extends JPanel implements KeyListener {
         for(int i = 0;i<3;i++){
             EnemyTank en = new EnemyTank((100*(i+1)),0);
             en.setDirect(2);
+            Shot shot = new Shot(en.getX()+20,en.getY()+60,en.getDirect());
+            en.shots.add(shot);
+            new Thread(shot).start();
             enemyTanks.add(en);
         }
     }
@@ -30,7 +33,23 @@ public class MyPanel extends JPanel implements KeyListener {
         drawTank(hero.getX(), hero.getY(),g, hero.getDirect(), 0);
         for(int i = 0;i<enemyTanks.size();i++){
            EnemyTank en = enemyTanks.get(i);
-           drawTank(en.getX(),en.getY(),g,en.getDirect(),1);
+           if(en.isLive==true){
+               drawTank(en.getX(),en.getY(),g,en.getDirect(),1);
+               for (int j = 0; j < en.shots.size(); j++) {
+                   Shot shot = en.shots.get(j);
+                   if(shot.isLive==true){
+                       g.draw3DRect(shot.x,shot.y,1,1,false);
+                   }else{
+                       en.shots.remove(j);
+                   }
+               }
+           }else{
+
+           }
+        }
+        if(hero.shot!=null&&hero.shot.isLive == true){
+            //画出射击的子弹
+            g.draw3DRect(hero.shot.x,hero.shot.y,1,1,false);
         }
     }
     //画tank的方法
@@ -96,8 +115,10 @@ public class MyPanel extends JPanel implements KeyListener {
         }
         else if (e.getKeyCode()==KeyEvent.VK_S) {
             hero.setDirect(2);
-
             hero.moveDown();
+        }
+        if(e.getKeyCode()==KeyEvent.VK_J){
+            hero.shotEnemy();
         }
         this.repaint();
     }
@@ -105,5 +126,48 @@ public class MyPanel extends JPanel implements KeyListener {
     @Override
     public void keyReleased(KeyEvent e) {
 
+    }
+
+    @Override
+    public void run() {
+        while(true){
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            //位置换了
+            if(hero.shot!=null&&hero.shot.isLive){
+                for(int i = 0;i<enemyTanks.size();i++){
+                    EnemyTank en = enemyTanks.get(i);
+                    hitTank(hero.shot,en);
+                }
+            }
+            this.repaint();
+        }
+    }
+    public void hitTank(Shot s,EnemyTank tank){
+        //判断s，集中tank
+        switch (tank.getDirect()){
+            case 0:
+            case 2:
+                if(s.x>tank.getX()&&s.x<tank.getX()+40&&s.y> tank.getY()&&s.y<tank.getY()+60){
+                    s.isLive = false;
+                    tank.isLive = false;
+                }
+                break;
+            case 1:
+                if(s.x>tank.getX()&&s.x<tank.getX()+40&&s.y> tank.getY()&&s.y<tank.getY()+60){
+                    s.isLive = false;
+                    tank.isLive = false;
+                }
+                break;
+            case 3:
+                if(s.x>tank.getX()&&s.x<tank.getX()+60&&s.y> tank.getY()&&s.y<tank.getY()+40){
+                    s.isLive = false;
+                    tank.isLive = false;
+                }
+                break;
+        }
     }
 }

@@ -9,6 +9,8 @@ public class TankGame extends JFrame {
     }
     public TankGame(){
         panel = new MyPanel();
+        Thread thread = new Thread(panel);
+        thread.start();
         //把panel放在面板上
         this.add(panel);
         this.setSize(1000,750);
