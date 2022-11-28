@@ -11,6 +11,9 @@ public class MyPanel extends JPanel implements KeyListener,Runnable {
     MyTank hero = null;
     //定义敌人的Tank
     Vector<EnemyTank> enemyTanks = new Vector<>();
+    //存放炸弹
+    Vector<Bomb> bombs = new Vector<>();
+
     public MyPanel(){
         //初始化我的Tank
         hero = new MyTank(100,100);
