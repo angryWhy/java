@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/File/copyfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Reader/fileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Writer/fileWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TankGame">
-    <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BallMove.Ball" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BallMove.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.fileWriter">
     <configuration name="TankGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tank.TankGame" />
       <module name="java" />
@@ -94,12 +82,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.basic" />
+    <configuration name="fileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="File.Reader.fileReader" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.*" />
+          <option name="PATTERN" value="File.Reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="File.Writer.fileWriter" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="File.Writer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fileWriter" />
+        <item itemvalue="Application.fileReader" />
         <item itemvalue="Application.TankGame" />
         <item itemvalue="Application.ThreadStatus" />
         <item itemvalue="Application.ThreadInsert" />
-        <item itemvalue="Application.basic" />
-        <item itemvalue="Application.Ball" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +193,9 @@
       <workItem from="1669639836867" duration="2521000" />
       <workItem from="1669727088191" duration="2759000" />
       <workItem from="1669898461350" duration="3241000" />
-      <workItem from="1669985414121" duration="980000" />
+      <workItem from="1669985414121" duration="1784000" />
+      <workItem from="1670046525292" duration="3162000" />
+      <workItem from="1670051690078" duration="1414000" />
     </task>
     <servers />
   </component>
