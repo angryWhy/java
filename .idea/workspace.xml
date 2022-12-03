@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/File/Buffer/buffer_copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/Buffer/reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/Buffer/writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/Buffer02/copy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +194,8 @@
       <workItem from="1669898461350" duration="3241000" />
       <workItem from="1669985414121" duration="1784000" />
       <workItem from="1670046525292" duration="3162000" />
-      <workItem from="1670051690078" duration="7162000" />
+      <workItem from="1670051690078" duration="7639000" />
+      <workItem from="1670071159637" duration="2228000" />
     </task>
     <servers />
   </component>
