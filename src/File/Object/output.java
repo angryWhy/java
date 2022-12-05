@@ -29,7 +29,12 @@ public class output {
 class Dog implements Serializable {
     private int age;
     private String name;
-
+    private String hobby;
+    //静态属性或者
+    //序列化对象，要求属性的类型也是实现序列化接口
+    //比如子类，父类实现了序列化接口，也是可以的
+    //private Cat cat
+    private static final long serialVersionUID = 1L;
     @Override
     public String toString() {
         return "Dog{" +
