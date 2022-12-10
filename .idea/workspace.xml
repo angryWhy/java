@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/File/stanardInOut/SystemIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/File/Object/output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/File/Object/output.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +41,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.fileWriter">
-    <configuration name="TankGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tank.TankGame" />
+  <component name="RunManager" selected="Application.SystemIn">
+    <configuration name="SystemIn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="File.stanardInOut.SystemIn" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tank.*" />
+          <option name="PATTERN" value="File.stanardInOut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadInsert" />
+    <configuration name="TankGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tank.TankGame" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.*" />
+          <option name="PATTERN" value="Tank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SystemIn" />
         <item itemvalue="Application.fileWriter" />
         <item itemvalue="Application.fileReader" />
         <item itemvalue="Application.TankGame" />
         <item itemvalue="Application.ThreadStatus" />
-        <item itemvalue="Application.ThreadInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +196,10 @@
       <workItem from="1670046525292" duration="3162000" />
       <workItem from="1670051690078" duration="7639000" />
       <workItem from="1670071159637" duration="2472000" />
-      <workItem from="1670241632913" duration="4524000" />
+      <workItem from="1670241632913" duration="4531000" />
+      <workItem from="1670330943443" duration="187000" />
+      <workItem from="1670653356844" duration="1424000" />
+      <workItem from="1670667406899" duration="1230000" />
     </task>
     <servers />
   </component>
