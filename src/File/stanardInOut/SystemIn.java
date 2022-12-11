@@ -1,5 +1,7 @@
 package File.stanardInOut;
 
+import java.util.Scanner;
+
 public class SystemIn {
     public static void main(String[] args) {
         //System类的public finial static InputStream in = null;
@@ -13,5 +15,11 @@ public class SystemIn {
         //运行类型PrintStream
         //标准输出
         System.out.println();
+
+        //标准输入，bufferinputstream
+        Scanner scanner = new Scanner(System.in);
+        String next = scanner.next();
+        //获取输入后的值
+        System.out.println(next);
     }
 }
