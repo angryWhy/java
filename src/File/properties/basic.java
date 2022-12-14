@@ -1,9 +1,6 @@
 package File.properties;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.Properties;
 
 public class basic {
@@ -42,6 +39,21 @@ public class basic {
 
     //设置
     public static void setPro(){
+        //创建文件
+        Properties properties = new Properties();
 
+        //创建
+        //如果有key就是修改，如果没有就是创建
+        properties.setProperty("charset","utf8");
+        properties.setProperty("user","汤姆");
+        properties.setProperty("pwd","123");
+
+        //将key-value存储到文件里去
+        try {
+            properties.store(new FileOutputStream("src:\\mysql.properties"),null);
+            System.out.println("保存配置文件成功");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
