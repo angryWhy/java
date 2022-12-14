@@ -1,9 +1,6 @@
 package File;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 
 public class exercise {
     public static void main(String[] args) {
@@ -31,6 +28,19 @@ public class exercise {
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
+        }
+    }
+    public static void exercise02(){
+        String filePath = "d:\\a.txt";
+        String line = "";
+        try {
+            BufferedReader bufferedReader =  new BufferedReader(new FileReader(filePath));
+            while((line=bufferedReader.readLine())!=null){
+                System.out.println(line);
+            }
+            bufferedReader.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 }
