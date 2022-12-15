@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/File/exercise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/File/properties/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/File/properties/basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/File/exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/File/exercise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,8 @@
       <workItem from="1670758492708" duration="3919000" />
       <workItem from="1670851714891" duration="818000" />
       <workItem from="1670934076842" duration="2114000" />
-      <workItem from="1671021189587" duration="1419000" />
+      <workItem from="1671021189587" duration="2133000" />
+      <workItem from="1671105545322" duration="1647000" />
     </task>
     <servers />
   </component>
@@ -227,5 +227,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java$SystemIn.ic" NAME="SystemIn Coverage Results" MODIFIED="1671023590597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>File.stanardInOut.*</FILTER>
+    </SUITE>
   </component>
 </project>
