@@ -4,6 +4,7 @@ import com.sun.org.apache.xpath.internal.operations.String;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.*;
 
 public class Inetaddre {
@@ -36,12 +37,16 @@ public class Inetaddre {
             System.out.println("socket=" + so.getClass());
             //通过socket.InputStream读写客户端的数据，
             InputStream in = so.getInputStream();
+            //设置一个结束标记
+            so.shutdownInput();
             //4.IO读取
             byte[] buf = new byte[1024];
             int readLine = 0;
             while((readLine = in.read(buf)) != -1){
                 //System.out.println(new String(buf,0,readLine));
             }
+            OutputStream outputStream = so.getOutputStream();
+            outputStream.write("hello".getBytes());
             in.close();
             serverSocket.close();
             so.close();
