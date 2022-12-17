@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e2c6e3-e869-406e-96ce-280045e41698" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NetWork/UDP/cilent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NetWork/UDP/server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflect/basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Reflect/methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Reflect/basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflect/basic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +208,7 @@
       <workItem from="1670934076842" duration="2114000" />
       <workItem from="1671021189587" duration="2133000" />
       <workItem from="1671105545322" duration="5220000" />
-      <workItem from="1671254497463" duration="7513000" />
+      <workItem from="1671254497463" duration="10781000" />
     </task>
     <servers />
   </component>

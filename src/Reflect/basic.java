@@ -13,11 +13,11 @@ public class basic {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
         Properties properties = new Properties();
         properties.load(new FileInputStream("d:\\a.txt"));
-        String className = properties.get("name").toString();
+        String className = properties.get("com.Cat").toString();
         String method = properties.get("method").toString();
 
         //使用反射
-        //1.加载类，返回一个Class类型的对象
+        //1.加载类，返回一个Class类型的对象,fullpath
         Class obj = Class.forName(className);
 
         //2.通过 obj 得到加载类的实例对象
